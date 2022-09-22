@@ -34,7 +34,7 @@
   </script>
   <script src = "javascript/CheckPoint1.js"></script>
   <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5dD5p41ajRTjMFodaV1IrkRsFgeOwadQ&callback=initMap&libraries=places">
+        src="https://maps.googleapis.com/maps/api/js?key=APIkey&callback=initMap&libraries=places">
   </script>
 
   <div class = "dista">
