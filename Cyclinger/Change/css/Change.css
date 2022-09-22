@@ -1,0 +1,169 @@
+body{
+    background-position: 40% 0%;
+    background-size: 142vw;
+    background-image: url(../img/cre.jpg);
+}
+footer{
+    margin-top: auto;
+    position: absolute;
+    bottom: 0;
+}
+.IPhone{
+    height: 100%;
+    min-height: 146vw;
+    position: relative;
+    padding-bottom: 35vw;
+    background-color: rgba(255,255,255,0.6)
+}
+
+.ham_line {
+    position: absolute;
+    left: 10px;
+    width: 40px;
+    height: 5px;
+    background-color: #fff;
+}
+.ham_line1 {
+    top: 15px;
+}
+.ham_line2 {
+    top: 28px;
+}
+.ham_line3 {
+    top: 41px;
+}
+
+.back{
+    top: 20vw;
+    left: -2vw;
+    width: 16vw;
+    height: 14vw;
+    border: none;
+    background-color: #fff;
+    padding: 3vw 3vw;
+    border-radius: 16%;
+    position: relative;
+}
+
+.Form .my_info img{
+    top: 7vw;
+    left: 19vw;
+    width: 25vw;
+    height: 25vw;
+    border: 3px solid #fff;
+    border-radius: 50px;
+    margin-right: 4vw;
+    position:relative;
+}
+
+.Form{
+    width: 40%;
+    top: 30vw;
+    left: 18vw;
+    position: relative;
+}
+.Form p{
+    font-size: 4vw;
+    left: -10vw;
+    color: #fff;
+    text-shadow: 0 2px 5px #000;
+    position: relative;
+}
+.Form input{
+    width: 65vw;
+    height: 9vw;
+    left: 10vw;
+    border: 3px solid #fff;;
+    background-color: rgba(255,255,255,0.7);
+    box-shadow: -2px 3px 5px rgba(0,0,0,0.5) inset;
+}
+.Form a{
+    top: 10vw;
+    left: 20vw;
+    margin-top: 10vw;
+    position: relative;
+}
+a{
+    text-decoration: none;
+}
+p[name = 'newAco']{
+    color: #ffd5d5;
+    font-size: 5vw;
+    top: -10vw;
+    left: -25vw;
+    position: relative;
+    -webkit-text-stroke: 4px #ce8d8d59;
+    text-shadow: none;
+}
+
+.ra{
+    top: 19vw;
+    left: 16vw;
+    color: #fff;
+    text-shadow: 0 2px 5px #000;
+    position:relative;
+}
+
+.btn{
+    top: 8vw;
+    left: 50vw;
+    padding: 10px 20px;
+    font-family:  "Comic Sans MS";
+    font-size: 25px;
+    border: 3px solid #fff;
+    border-radius: 5%;
+    position: relative;
+    -webkit-box-shadow: 0 4px 10px #777;
+    background-color: rgba(255,255,255,0.6)
+}
+
+.plus{
+    top: -4vw;
+    left: 40vw;
+    height: 9vw;
+    padding: 1px 7px;
+    font-size: 25px;
+    border: 3px solid #fff;
+    border-radius: 5%;
+    position: relative;
+    -webkit-box-shadow: 0 4px 10px #777;
+    background-color: rgba(255,255,255,0.6);
+    display:none;
+}
+
+label {
+    position: relative;
+    left: 39vw;
+    top: -1vw;
+    padding: 2px 9px;
+    border-radius:14px 5px 5px 5px;
+    color: #000;
+    background-color: rgba(255,255,255,0.6);
+}
+input[type="file"] {
+    position:relative;
+}
+
+footer .btn1{
+    position: absolute;
+    left: 0;
+    top: 11.3vw;
+    border: none;
+    background-color: #fff;
+    border-right: 6px solid #000000;
+}
+footer .btn2{
+    position: absolute;
+    left: 32.1vw;
+    top: 11.3vw;
+    border: none;
+    background-color: #fff;
+    border-right: 6px solid #000000;
+}
+footer .btn3{
+    position: absolute;
+    left: 64.3vw;
+    top: 11.3vw;
+    border: none;
+    background-color: #fff;
+}

@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  background-position: 49% 56%;
+  background-size: 130vw;
+  background-image: url(../img/NH.jpg);
+}
+footer{
+  margin-top: auto;
+  position: absolute;
+  bottom: 0;
+}
+
+.IPhone{
+  height: 100%;
+  min-height: 93vw;
+  position: relative;
+  padding-bottom: 53.2vw; /* 変更で変えれる*/
+  background-color: rgba(255,255,255,0.6)
+}
+
+.ham {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+.ham_line {
+  position: absolute;
+  left: 10px;
+  width: 40px;
+  height: 5px;
+  background-color: #fff;
+}
+.ham_line1 {
+  top: 15px;
+}
+.ham_line2 {
+  top: 28px;
+}
+.ham_line3 {
+  top: 41px;
+}
+
+
+a {
+  color: #777;
+  text-decoration: none;
+}
+
+table {
+  top: 15vw;
+  left: -0.3vw;
+  border: 1px solid #ddd;
+  position: relative;
+  background: #fff
+}
+
+th {
+  background: #eee;
+}
+
+th, td {
+  text-align: center;
+  padding: 18px;
+}
+.red{
+  color: red;
+}
+.blue{
+  color: blue;
+}
+.today {
+  font-weight: bold;
+  background-color: #f5a9a9;
+}
+
+.grey {
+  color: #dedede;
+}
+.gruCh{
+  top: 25vw;
+  left: 50vw;
+  font-size: 25px;
+  padding: 3vw 4vw;
+  border: 3px solid #fff;
+  border-radius: 5%;
+  position: relative;
+  -webkit-box-shadow: 0 4px 10px #777;
+  background-color: rgba(255,255,255,0.6)
+}
+footer .btn1{
+  position: absolute;
+  left: 0;
+  border: none;
+  background-color: #fff;
+  border-right: 6px solid #000000;
+}
+footer .btn2{
+  position: absolute;
+  left: 32.1vw;
+  border: none;
+  background-color: #fff;
+  border-right: 6px solid #000000;
+}
+footer .btn3{
+  position: absolute;
+  left: 64.3vw;
+  border: none;
+  background-color: #fff;
+}
