@@ -1,0 +1,83 @@
+body{
+    background-position: 40% -20%;
+    background-size: 130vw;
+    background-image: url(../img/NH.jpg);
+}
+footer{
+    margin-top: auto;
+    position: absolute;
+    bottom: 0;
+}
+.IPhone{
+    height: 100%;
+    min-height: 25vw;
+    position: relative;
+    padding-bottom: 180vw;
+    background-color: rgba(255,255,255,0.6)
+}
+.Form{
+    top: 50vw;
+    left: 18vw;
+    position: relative;
+}
+p{
+    font-size: 5vw;
+    top: 70vw;
+    left: 2vw;
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+.btn{
+    top: 90vw;
+    left: 15vw;
+    padding: 15px 25px;
+    font-size: 25px;
+    border: 3px solid #fff;
+    border-radius: 5%;
+    position: relative;
+    -webkit-box-shadow: 0 4px 10px #777;
+    background-color: rgba(255,255,255,0.6)
+}
+.btn1{
+    top: 90vw;
+    left: 35vw;
+    padding: 15px 25px;
+    font-size: 25px;
+    border: 3px solid #fff;
+    border-radius: 5%;
+    position: relative;
+    -webkit-box-shadow: 0 4px 10px #777;
+    background-color: rgba(255,255,255,0.6)
+}
+button.btn2{
+    position: absolute;
+    bottom: -2vw;
+    left: -8px;
+    border: none;
+    background-color: #fff;
+    border-right: 6px solid #000000;
+}
+button.btn3{
+    position: absolute;
+    bottom: -2vw;
+    left: 31vw;
+    border: none;
+    background-color: #fff;
+    border-right: 6px solid #000000;
+}
+button.btn4{
+    position: absolute;
+    bottom: -2vw;
+    left: 64.3vw;
+    border: none;
+    background-color: #fff;
+}
+footer{
+    margin-top: auto;
+    position: absolute;
+    bottom: 0;
+}

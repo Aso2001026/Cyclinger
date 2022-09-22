@@ -1,0 +1,200 @@
+body{
+    background-position: 40% -20%;
+    background-size: 142vw;
+    background-image: url(../img/NH.jpg);
+}
+footer{
+    margin-top: auto;
+    position: absolute;
+    bottom: 0;
+}
+
+.IPhone{
+    height: 100%;
+    min-height: 93vw;
+    position: relative;
+    padding-bottom: 58.5vw; /* 変更で変えれる*/
+    background-color: rgba(255,255,255,0.6)
+}
+.ham {
+    position: relative;
+    width: 40px;
+    height: 40px;
+}
+.ham_line {
+    position: absolute;
+    left: 10px;
+    width: 40px;
+    height: 5px;
+    background-color: #fff;
+}
+.ham_line1 {
+    top: 15px;
+}
+.ham_line2 {
+    top: 28px;
+}
+.ham_line3 {
+    top: 41px;
+}
+.ham_line {
+    transition: all 0.3s;
+}
+.Room02{
+    top: 10vw;
+    left: 25vw;
+    width: 70vw;
+    height: 17vw;
+    position: relative;
+    display: flex;
+    border: 3px solid #fff;
+    -webkit-box-shadow: 0 4px 10px #777;
+    background-color: rgba(255,255,255,0.6)
+}
+.deta02{
+    height: 22vw;
+    position: relative;
+}
+.deta02 p{
+    margin-top: 0;
+}
+.deta02 h3{
+    top: -3vw;
+    left: 4vw;
+    position: relative;
+}
+
+
+.dista{
+    top: 45vw;
+    left: 0;
+    width: 40vw;
+    position: relative;
+    display: flex;
+    border: 3px solid #fff;
+    -webkit-box-shadow: 0 4px 10px #777;
+    background-color: rgba(255,255,255,0.6)
+}
+.kyoi{
+    height: 13vw;
+    width: 100%;
+    position: relative;
+}
+.kyoi p{
+    font-size: 14px;
+    margin-top: 0;
+}
+.kyoi h3{
+    font-size: 14px;
+    top: -3vw;
+    left: 4vw;
+    position: relative;
+}
+
+.posad{
+    width: 100%;
+    margin-top: auto;
+    position: absolute;
+    bottom: 0;
+    border: 1px solid #ffffff;
+    padding: 2vw;
+    display: flex;
+}
+.np{
+    padding: 2vw;
+}
+select{
+    width: 20vw;
+    height: 10vw;
+    font-size: 7vw;
+    text-align: center;
+}
+textarea {
+    font-size: .8rem;
+    letter-spacing: 6px;
+    padding: 10px;
+    max-width: 100%;
+    line-height: 5.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+.point{
+    border: 1px solid #fff;
+    height:10vw;
+    padding:5px;
+    position: relative;
+    top: 66vw;
+    background-color: rgba(192,192,192,0.85);
+}
+.point h3{
+    font-family:  "Comic Sans MS";
+    font-size: 8vw;
+    text-align:center;
+    position: relative;
+    top: -8vw;
+}
+.share{
+    position:relative;
+    width: 11vw;
+    height: 11vw;
+    left: 80vw;
+    top: 54vw;
+    background-color: #808080;
+    border-radius:75px 75px 75px 75px;
+    border: none;
+    outline: none;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+.a {
+    border: 1px solid #fff;
+    overflow:auto;
+    height:63vw;
+    padding:5px;
+    position: relative;
+    top: 56vw;
+    background-color: rgba(220,220,220,0.7);
+}
+.check p{
+    position: relative;
+    left: 7vw;
+    width: 80%;
+}
+
+.check h3{
+    position: relative;
+    left: 9.3vw;
+    width: 80%;
+    margin-top: -4.5vw;
+    text-align: center;
+    border: 3px solid #fff;
+    -webkit-box-shadow: 0 4px 10px #777;
+    background-color: rgba(255,255,255,0.6);
+    border-radius:75px 75px 75px 75px;
+}
+p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+footer .btn1{
+    position: absolute;
+    left: 0;
+    border: none;
+    background-color: #fff;
+    border-right: 6px solid #000000;
+}
+footer .btn2{
+    position: absolute;
+    left: 32.1vw;
+    border: none;
+    background-color: #fff;
+    border-right: 6px solid #000000;
+}
+footer .btn3{
+    position: absolute;
+    left: 64.3vw;
+    border: none;
+    background-color: #fff;
+}

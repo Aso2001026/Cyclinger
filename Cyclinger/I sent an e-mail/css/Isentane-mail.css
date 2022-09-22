@@ -1,0 +1,72 @@
+body{
+    background-position: 40% -20%;
+    background-size: 142vw;
+    background-image: url(../img/cre.jpg);
+}
+footer{
+    margin-top: auto;
+    position: absolute;
+    bottom: 0;
+}
+.IPhone{
+    height: 100%;
+    min-height: 199vw;
+    position: relative;
+    background-color: rgba(255,255,255,0.6);
+    bottom: 3vw;
+}
+.Form{
+    top: 50vw;
+    left: 18vw;
+    position: relative;
+}
+.Form p{
+    font-size: 4vw;
+    left: -10vw;
+    color: #fff;
+    text-shadow: 0 2px 5px #000;
+    position: relative;
+}
+.Form input{
+    width: 65vw;
+    height: 15vw;
+    left: 10vw;
+    border: 3px solid #fff;
+    background-color: rgba(255,255,255,0.7);
+    box-shadow: -2px 3px 5px rgba(0,0,0,0.5) inset;
+}
+.Form a{
+    top: 10vw;
+    left: 20vw;
+    margin-top: 10vw;
+    position: relative;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-size: 12vw;
+    position: relative;
+    text-shadow: none;
+    top: 35vw;
+    font-family: fantasy;
+    text-align: center;
+}
+.message{
+    height: 100%;
+    min-height: 90vw;
+    position: relative;
+    top: 14vw;
+    background-color: rgba(255,255,255,0.6)
+}
+.MyPage{
+    left: 50vw;
+    bottom: 5vw;
+    padding: 20px 30px;
+    font-size: 20px;
+    border: 3px solid #fff;
+    border-radius: 5%;
+    position: relative;
+    -webkit-box-shadow: 0 4px 10px #777;
+    background-color: rgba(255,255,255,0.6);
+}

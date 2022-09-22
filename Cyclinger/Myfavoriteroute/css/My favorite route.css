@@ -1,0 +1,204 @@
+body{
+    background-position: 40% -20%;
+    background-size: 142vw;
+    background-image: url(../img/s.jpg);
+}
+footer{
+    margin-top: auto;
+    position: absolute;
+    bottom: 0;
+}
+
+.IPhone{
+    height: 100%;
+    min-height: 93vw;
+    position: relative;
+    padding-bottom: 1vw; /* 変更で変えれる*/
+    background-color: rgba(255,255,255,0.6)
+}
+.ham {
+    position: relative;
+    width: 40px;
+    height: 40px;
+}
+.ham_line {
+    position: absolute;
+    left: 10px;
+    width: 40px;
+    height: 5px;
+    background-color: #fff;
+}
+.ham_line1 {
+    top: 15px;
+}
+.ham_line2 {
+    top: 28px;
+}
+.ham_line3 {
+    top: 41px;
+}
+.ham_line {
+    transition: all 0.3s;
+}
+p{
+    top: -2vw;
+    position: relative;
+}
+
+h1{
+    top: 10vw;
+    color: #fff;
+    font-family:  "Comic Sans MS";
+    text-align: center;
+    text-shadow: 0 5px 5px #999;
+    margin-bottom: 20%;
+    position: relative;
+}
+h2{
+    top: -6vw;
+    left: 3vw;
+    position: relative;
+}
+.Room img{
+    border: 3px solid #fff;
+    border-radius: 50px;
+    margin-right: 4vw;
+}
+.back{
+    top: 20vw;
+    left: -2vw;
+    width: 16vw;
+    height: 14vw;
+    border: none;
+    background-color: #fff;
+    padding: 3vw 3vw;
+    border-radius: 16%;
+    position: relative;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+.a {
+    border: 1px solid #fff;
+    overflow:auto;
+    height:127vw;
+    padding:5px;
+}
+
+.Room{
+    display: flex;
+    border: 3px solid #fff;
+    -webkit-box-shadow: 0 4px 10px #777;
+    background-color: rgba(255,255,255,0.8)
+}
+.deta{
+    height: 25vw;
+    position: relative;
+}
+.deta img{
+    top: -12vw;
+    left: 40vw;
+    margin-right: 0vw;
+    position: relative;
+}
+/*jha;ughaughepwaguh*/
+.Room02{
+    margin-top: 2vw;
+    display: flex;
+    border: 3px solid #fff;
+    -webkit-box-shadow: 0 4px 10px #777;
+    background-color: rgba(255,255,255,0.8)
+}
+.deta02{
+    height: 25vw;
+    position: relative;
+}
+.dis{
+    width: 35vw;
+    top: -15vw;
+    left: 65vw;
+    font-size:6vw;
+    position: relative;
+}
+/*;uahgerpauhrpgau*/
+.Room03{
+    margin-top: 2vw;
+    display: flex;
+    border: 3px solid #fff;
+    -webkit-box-shadow: 0 4px 10px #777;
+    background-color: rgba(255,255,255,0.6)
+}
+.deta03{
+    height: 25vw;
+    position: relative;
+}
+.Go{
+    top: -23vw;
+    left: 70vw;
+    font-size: 25px;
+    padding: 3vw 4vw;
+    border: 3px solid #fff;
+    border-radius: 10%;
+    position: relative;
+    -webkit-box-shadow: 0 4px 10px #777;
+    background-color: rgba(255,255,255,0.6)
+
+}
+/*jba;weubfgbvauhfaughpauwegpaug*/
+.Room04 img{
+    top: 3vw;
+    left: 1vw;
+    border: 3px solid #fff;
+    border-radius: 50px;
+    margin-right: 4vw;
+    position:relative;
+}
+
+.Room04{
+    margin-top: 2vw;
+    display: flex;
+    border: 3px solid #fff;
+    -webkit-box-shadow: 0 4px 10px #777;
+    background-color: rgba(255,255,255,0.6)
+}
+.deta04{
+    height: 30vw;
+    position: relative;
+}
+.deta04 p{
+    top:-12vw;
+    left: 4vw;
+    position: relative;
+}
+.deta04 .dis{
+    top: -20vw;
+    left: 40vw;
+}
+.p{
+    top: 10vw;
+    left: 40vw;
+    width: 23vw;
+    position:relative;
+}
+
+footer .btn1{
+    position: absolute;
+    left: 0;
+    border: none;
+    background-color: #fff;
+    border-right: 6px solid #000000;
+}
+footer .btn2{
+    position: absolute;
+    left: 32.1vw;
+    border: none;
+    background-color: #fff;
+    border-right: 6px solid #000000;
+}
+footer .btn3{
+    position: absolute;
+    left: 64.3vw;
+    border: none;
+    background-color: #fff;
+}
