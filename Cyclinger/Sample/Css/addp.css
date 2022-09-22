@@ -1,0 +1,127 @@
+body{
+    background-position: 40% -20%;
+    background-size: 142vw;
+    background-image: url(img/NH.jpg);
+}
+footer{
+    margin-top: auto;
+    position: absolute;
+    bottom: 0;
+}
+
+.IPhone{
+    height: 100%;
+    min-height: 93vw;
+    position: relative;
+    padding-bottom: 100vw; /* 変更で変えれる*/
+    background-color: rgba(255,255,255,0.6)
+}
+.back{
+    top: 20vw;
+    left: -2vw;
+    width: 16vw;
+    height: 14vw;
+    border: none;
+    background-color: #fff;
+    padding: 3vw 3vw;
+    border-radius: 16%;
+    position: relative;
+}
+.Room02{
+    top: 10vw;
+    left: 25vw;
+    width: 70vw;
+    position: relative;
+    display: flex;
+    border: 3px solid #fff;
+    -webkit-box-shadow: 0 4px 10px #777;
+    background-color: rgba(255,255,255,0.6)
+}
+.deta02{
+    height: 22vw;
+    position: relative; 
+}
+.deta02 p{
+    margin-top: 0;
+}
+.deta02 h3{
+    top: -3vw;
+    left: 4vw;
+    position: relative;
+}
+
+
+.dista{
+    top: 65vw;
+    left: 0;
+    width: 40vw;
+    position: relative;
+    display: flex;
+    border: 3px solid #fff;
+    -webkit-box-shadow: 0 4px 10px #777;
+    background-color: rgba(255,255,255,0.6)
+}
+.kyoi{
+    height: 22vw;
+    position: relative; 
+}
+.kyoi p{
+    margin-top: 0;
+}
+.kyoi h3{
+    top: -3vw;
+    left: 4vw;
+    position: relative;
+}
+
+.posad{
+    width: 100%;
+    margin-top: auto;
+    position: absolute;
+    bottom: 0;
+    border: 1px solid #ffffff;
+    padding: 2vw;
+    display: flex;
+}
+.np{
+    padding: 2vw;
+}
+select{
+    width: 20vw;
+    height: 10vw;
+    font-size: 7vw;
+    text-align: center;
+}
+textarea {
+    font-size: .8rem;
+    letter-spacing: 6px;
+    padding: 10px;
+    max-width: 100%;
+    line-height: 5.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+footer .btn1{
+    position: absolute;
+    left: 0;
+    border: none;
+    background-color: #fff;
+    border-right: 6px solid #000000;
+}
+footer .btn2{
+    position: absolute;
+    left: 32.1vw;
+    border: none;
+    background-color: #fff;
+    border-right: 6px solid #000000;
+}
+footer .btn3{
+    position: absolute;
+    left: 64.3vw;
+    border: none;
+    background-color: #fff;
+}

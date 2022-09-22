@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Map</title>
+</head>
+<body>
+<input id="pac-input"class="controls"type="text"placeholder="Search Box"/>
+<div id="map" style="width:100vw;height:60vw;"></div>
+<script src = "cyclist.js"></script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5dD5p41ajRTjMFodaV1IrkRsFgeOwadQ&callback=initMap&libraries=places">
+</script>
+
+    <button class = "gmap_btn" id = "del" onclick = "deleteMarkers([0])">Delete</button>
+    <button class = "Mv_On" id = "Mv_On">Move</button>
+    <button class = "Li_St" id = "Li_St">Pull</button>
+    <button class = "Li_Dl" id = "Li_Dl">Erase</button>
+    <button class = "calc_btn" id = "cal">Distance</button>
+    <button class = "p1" id = "p1">表示</button>
+    <button class = "p2" id = "p2">CheckPoint</button>
+    <button class = "reload" id = "reload" onclick = "Reload()">Reload</button>
+    <h5 id = "view_dista"></h5>
+    <h5 id = "view_h"></h5>
+    <h5 id = "view_array"></h5>
+</body>
+</html

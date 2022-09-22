@@ -1,0 +1,199 @@
+●●●  HTML  ●●●
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <meta name = "viewport" content = "width=320,height=480,initial-scale=1.0,minimum-scale=1.0,maximum-scale=2.0,user-scalable=yes" />
+        <title></title>
+        <link rel = "stylesheet" href = "addp.css">
+    </head>
+    <body>
+        <div class = "IPhone">
+            <div class="ham">
+                <span class="ham_line ham_line1"></span>
+                <span class="ham_line ham_line2"></span>
+                <span class="ham_line ham_line3"></span>
+            </div>
+            <button class = "back"><img src = "img/back1.png" width = "30" height = "30"></button>
+            <div class = "Room02">
+            <div class = "deta02">
+                <p>5月20日</p>                       
+                <p><h3>桜井二見ケ浦の夫婦岩</h3></p>
+            </div>
+            </div>
+            <div class = "dista">
+                <div class = "kyoi">
+                    <p>5月20日</p>                       
+                    <p><h3>桜井二見ケ浦の夫婦岩</h3></p>
+                </div>
+            </div>
+    
+            <div class = "posad">
+                <textarea name = "story" row = "5" cols = "33" placeholder = "コメント入力"></textarea>
+                <div class = "np">
+                <p>募集人数</p>
+                <select name = "num">
+                    <option value = "1">1</option>
+                    <option value = "2">2</option>
+                    <option value = "3">3</option>
+                    <option value = "4">4</option>
+                </select>
+                </div>
+            </div>        
+            <a href = ""><div class = "SubPos">Post</div></a>
+            <footer>
+                <button class = "btn1"><img src = "img/page.png" width = "119" height = "80"></button>
+                <button class = "btn2"><img src = "img/cyclring.png" width = "119" height = "80"></button>
+                <button class = "btn3"><img src = "img/post.png" width = "119" height = "80"></button>
+            </footer>
+            </div>
+        
+    </body>
+</html>
+
+●●●  CSS  ●●●
+body{
+    background-position: 40% -20%;
+    background-size: 142vw;
+    background-image: url(img/NH.jpg);
+}
+footer{
+    margin-top: auto;
+    position: absolute;
+    bottom: 0;
+}
+
+.IPhone{
+    height: 100%;
+    min-height: 93vw;
+    position: relative;
+    padding-bottom: 100vw; /* 変更で変えれる*/
+    background-color: rgba(255,255,255,0.6)
+}
+.back{
+    top: 20vw;
+    left: -2vw;
+    width: 16vw;
+    height: 14vw;
+    border: none;
+    background-color: #fff;
+    padding: 3vw 3vw;
+    border-radius: 16%;
+    position: relative;
+}
+.Room02{
+    top: 10vw;
+    left: 25vw;
+    width: 70vw;
+    position: relative;
+    display: flex;
+    border: 3px solid #fff;
+    -webkit-box-shadow: 0 4px 10px #777;
+    background-color: rgba(255,255,255,0.6)
+}
+.deta02{
+    height: 22vw;
+    position: relative; 
+}
+.deta02 p{
+    margin-top: 0;
+}
+.deta02 h3{
+    top: -3vw;
+    left: 4vw;
+    position: relative;
+}
+a{
+    text-decoration: none;
+}
+.dista{
+    top: 65vw;
+    left: 0;
+    width: 52vw;
+    position: relative;
+    display: flex;
+    border: 3px solid #fff;
+    -webkit-box-shadow: 0 4px 10px #777;
+    background-color: rgba(255,255,255,0.6)
+}
+.kyoi{
+    height: 22vw;
+    position: relative; 
+}
+.kyoi p{
+    margin-top: 0;
+}
+.kyoi h3{
+    top: -3vw;
+    left: 4vw;
+    position: relative;
+}
+
+.posad{
+    width: 95%;
+    margin-top: auto;
+    position: absolute;
+    bottom: 90px;
+    border: 1px solid #ffffff;
+    padding: 2vw;
+    display: flex;
+}
+.np{
+    padding: 2vw;
+}
+select{
+    width: 30vw;
+    height: 13vw;
+    font-size: 6vw;
+    text-align: center;
+}
+textarea {
+    font-size: .8rem;
+    letter-spacing: 6px;
+    padding: 10px;
+    max-width: 100%;
+    line-height: 5.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+.SubPos{
+    top: 115vw;
+    text-align: center;
+    font-size: 7vw;
+    left: 33vw;
+    width: 31vw;
+    height: 10vw;
+    border-radius: 10%;
+    position: relative;
+    border: 3px solid #fff;
+    -webkit-box-shadow: 0 4px 10px #777;
+    background-color: rgba(255,255,255,0.6)
+
+}
+footer .btn1{
+    position: absolute;
+    left: 0;
+    border: none;
+    background-color: #fff;
+    border-right: 6px solid #000000;
+}
+footer .btn2{
+    position: absolute;
+    left: 32.1vw;
+    border: none;
+    background-color: #fff;
+    border-right: 6px solid #000000;
+}
+footer .btn3{
+    position: absolute;
+    left: 64.3vw;
+    border: none;
+    background-color: #fff;

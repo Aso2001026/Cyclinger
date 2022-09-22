@@ -1,0 +1,103 @@
+body{
+    background-position: 40% 0%;
+    background-size: 142vw;
+    background-image: url(../img/cre.jpg);
+}
+footer{
+    margin-top: auto;
+    position: absolute;
+    bottom: 0;
+}
+.IPhone{
+    height: 100%;
+    min-height: 161vw;
+    position: relative;
+    padding-bottom: 35vw;
+    background-color: rgba(255,255,255,0.6)
+}
+
+.ham {
+    position: relative;
+    width: 40px;
+    height: 40px;
+}
+.ham_line {
+    position: absolute;
+    left: 10px;
+    width: 40px;
+    height: 5px;
+    background-color: #fff;
+}
+.ham_line1 {
+    top: 15px;
+}
+.ham_line2 {
+    top: 28px;
+}
+.ham_line3 {
+    top: 41px;
+}
+
+h1{
+    top: 30vw;
+    color: #fff;
+    font-family:  "Comic Sans MS";
+    text-align: center;
+    text-shadow: 0 5px 5px #999;
+    margin-bottom: 20%;
+    position: relative;
+}
+
+.Form{
+    width: 40%;
+    top: 27vw;
+    left: 18vw;
+    position: relative;
+}
+.Form p{
+    font-size: 4vw;
+    left: -5vw;
+    color: #fff;
+    text-shadow: 0 2px 5px #000;
+    position: relative;
+}
+.Form input{
+    width: 65vw;
+    height: 9vw;
+    left: 10vw;
+    border: 3px solid #fff;;
+    background-color: rgba(255,255,255,0.7);
+    box-shadow: -2px 3px 5px rgba(0,0,0,0.5) inset;
+}
+.Form a{
+    top: 10vw;
+    left: 20vw;
+    margin-top: 10vw;
+    position: relative;
+}
+a{
+    text-decoration: none;
+}
+p[name = 'newAco']{
+    color: #ffd5d5;
+    font-size: 5vw;
+    top: -10vw;
+    left: -25vw;
+    position: relative;
+    -webkit-text-stroke: 4px #ce8d8d59;
+    text-shadow: none;
+}
+
+
+.btn{
+    top: 50vw;
+    left: 59vw;
+    padding: 10px 20px;
+    font-family:  "Comic Sans MS";
+    font-size: 25px;
+    border: 3px solid #fff;
+    border-radius: 5%;
+    position: relative;
+    -webkit-box-shadow: 0 4px 10px #777;
+    background-color: rgba(255,255,255,0.6)
+}

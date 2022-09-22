@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="result"></div>
+<div class="MAP1">
+<div id="map" style="width:100vw;height:60vw;"></div>
+</div>
+<script>
+  var lat2;
+  var lng2;
+  //GoogleMAP取得後にinitMapを実行
+  function initMap() {
+    navigator.geolocation.getCurrentPosition(success, error);
+    //位置情報が正常に取得出来た場合にsuccess関数を実行
+    function success(position) {
+      console.log("緯度:" + position.coords.latitude);
+      console.log("経度:" + position.coords.longitude);
+      lat2 = position.coords.latitude;
+      lng2 = position.coords.longitude;
+      const map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 15,
+        center: {lat: lat2, lng: lng2} // 適当な座標
+      });
+      google.maps.event.addListener(map, 'click', event => clickListener(event, map));
+    }
+    function error() {
+      document.write("位置情報の取得に失敗しました。");
+    }
+
+  }
+  function clickListener(event, map) {
+    const lat = event.latLng.lat();
+    const lng = event.latLng.lng();
+    const marker = new google.maps.Marker({
+      position: {lat, lng},
+      map
+
+    });
+  }
+</script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5dD5p41ajRTjMFodaV1IrkRsFgeOwadQ&callback=initMap">
+</script>
+</body>
+</html>

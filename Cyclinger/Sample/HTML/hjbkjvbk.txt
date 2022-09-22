@@ -1,0 +1,20 @@
+<div class = "a">// スワイプ
+
+/*一覧①*/
+     <div class = "Room02">
+     <div class = "deta02">
+     <p>5月20日</p>                        
+     <p><h2>桜井二見ケ浦の夫婦岩</h2></p>
+     <p class = "dis">0.00 km</p>
+     </div>
+     </div>
+/*一覧②*/
+     <div class = "Room02">
+     <div class = "deta02">
+     <p>5月20日</p>                        
+     <p><h2>桜井二見ケ浦の夫婦岩</h2></p>
+     <p class = "dis">0.00 km</p>
+     </div>
+     </div>
+  
+</div>

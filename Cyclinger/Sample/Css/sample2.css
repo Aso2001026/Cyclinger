@@ -1,0 +1,86 @@
+body{
+    background-position: 40% -20%;
+    background-size: 142vw;
+    background-image: url("../cre.jpg");
+}
+footer{
+    margin-top: auto;
+    position: absolute;
+    bottom: 0;
+}
+.IPhone{
+    height: 100%;
+    min-height: 110vw;
+    position: relative;
+    padding-bottom: 100vw;
+    background-color: rgba(255,255,255,0.6)
+}
+.Form{
+    top: 50vw;
+    left: 18vw;
+    position: relative;
+}
+.Form p{
+    font-size: 4vw;
+    left: -10vw;
+    color: #fff;
+    text-shadow: 0 2px 5px #000;
+    position: relative;
+}
+.Form input{
+    width: 65vw;
+    height: 15vw;
+    left: 10vw;
+    border: 3px solid #fff;;
+    background-color: rgba(255,255,255,0.7);
+    box-shadow: -2px 3px 5px rgba(0,0,0,0.5) inset;
+}
+.Form a{
+    top: 10vw;
+    left: 20vw;
+    margin-top: 10vw;
+    position: relative;
+}
+a{
+    text-decoration: none;
+}
+p[name = 'newAco']{
+    color: #ffd5d5;
+    font-size: 5vw;
+    top: -10vw;
+    left: -25vw;
+    position: relative;
+    -webkit-text-stroke: 4px #ce8d8d59;
+    text-shadow: none;
+}
+.Login{
+    top: 90vw;
+    left: 55vw;
+    padding: 20px 30px;
+    font-size: 25px;
+    border: 3px solid #fff;
+    border-radius: 5%;
+    position: relative;
+    -webkit-box-shadow: 0 4px 10px #777;
+    background-color: rgba(255,255,255,0.6)
+}
+footer .btn1{
+    position: absolute;
+    left: 0;
+    border: none;
+    background-color: #fff;
+    border-right: 6px solid #000000;
+}
+footer .btn2{
+    position: absolute;
+    left: 32.1vw;
+    border: none;
+    background-color: #fff;
+    border-right: 6px solid #000000;
+}
+footer .btn3{
+    position: absolute;
+    left: 64.3vw;
+    border: none;
+    background-color: #fff;
+}
