@@ -1,0 +1,66 @@
+@keyframes fadeIn{
+  0%{opacity: 0;}
+  50%{opacity: 0.5;}
+  100%{opacity: 1;}
+}
+@keyframes slidIn{
+  0%{transform: translateX(180px);}
+  100%{transform: translateX(0);}
+  0%,60%{opacity: 0;}
+  100%{opacity: 1;}
+}
+@keyframes slid{
+  0%{
+    transform: translate(180px,30px);
+    opacity: 0;
+  }
+  90%{
+    opacity: 0
+  }
+  100%{
+    transform: translate(0,0);
+    opacity: 1
+  }
+}
+body{
+    background-position: 99% 10%;
+    background-size: 125vw;
+    background-image: url(img/img04.png)
+}
+a{
+  text-decoration: none;
+}
+h1{
+    top: 35vw;
+    text-align: center;
+    font-size: 13vw;
+    color: #ffffff;
+    position: relative;
+    animation: fadeIn 3s;
+}
+button{
+  width: 60vw;
+  padding: 6%;
+  top: 80vw;
+  left: 38vw;
+  color: #fff;
+  text-shadow:  1px 2px #000;
+  position: relative;
+  font-size: 12vw;
+  border-radius: 30% 0 0 5%;
+  border: 3px solid #fff;
+  background-color: rgba(255,255,255,0.5);
+  animation: slid 6s;
+}
+p{
+    width: 43vw;
+    top: 28vw;
+    left: 40vw;
+    font-size: 6vw;
+    margin: 0;
+    color: #ffffff;
+    position: relative;
+}
+.a{
+  animation: slidIn 5s ease-out;
+}

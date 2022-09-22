@@ -1,0 +1,55 @@
+body{
+    background-image: url(../img/cre.jpg);
+    background-position: 35% 13%;
+    background-size: 146vw;
+}
+.iphone{
+    height: 58vw;
+    min-height: 23vw;
+    position: relative;
+    background-color: rgba(255,255,255,0.6);
+    padding: 1px 0px 156vw 0;
+}
+.Android{
+    top: 60vw;
+    height: 55vw;
+    position: relative;
+    background-position: 100% 65%;
+    background-size: 100vw;
+}
+h2{
+    font-size: 8vw;
+    position: relative;
+    text-shadow: none;
+    top: 15vw;
+    font-family: monospace;
+    text-align: center;
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+.YES {
+    top: 20vw;
+    left: 18vw;
+    padding: 20px 65px;
+    font-size: 58px;
+    border: 3px solid #fff;
+    border-radius: 5%;
+    position: relative;
+    -webkit-box-shadow: 0 4px 10px #777;
+    background-color: rgba(255,255,255,0.6);
+}
+.NO{
+    top: 20vw;
+    left: 32vw;
+    padding: 20px 78px;
+    font-size: 58px;
+    border: 3px solid #fff;
+    border-radius: 5%;
+    position: relative;
+    -webkit-box-shadow: 0 4px 10px #777;
+    background-color: rgba(255,255,255,0.6);
+}
+a {
+    text-decoration: none;
+    color: black;
+}

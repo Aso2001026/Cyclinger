@@ -1,0 +1,77 @@
+body{
+    background-position: 40% -20%;
+    background-size: 142vw;
+    background-image: url(../MAP/img/cre.jpg);
+}
+footer{
+    margin-top: auto;
+    position: absolute;
+    bottom: 0;
+}
+.IPhone{
+    height: 100%;
+    min-height: 93vw;
+    position: relative;
+    padding-bottom: 1vw; /* 変更で変えれる*/
+    background-color: rgba(255,255,255,0.6)
+}
+.map_marker{
+    width: 60vw;
+    height: 50vw;
+    background: #fff;
+    position: absolute;
+    top: 140vw;
+}
+.a {
+    overflow:auto;
+    height:35vw;
+    padding:5px;
+}
+.gmap_btn{
+    border: 3px solid #ccc;
+    background: #fff;
+    width: 60vw;
+    -webkit-box-shadow: 0 5px 10px #eee
+}
+#view_array{
+    margin: 0
+}
+footer .btn1{
+    position: absolute;
+    left: 0;
+    border: none;
+    background-color: #fff;
+    border-right: 6px solid #000000;
+}
+footer .btn2{
+    position: absolute;
+    left: 32.1vw;
+    border: none;
+    background-color: #fff;
+    border-right: 6px solid #000000;
+}
+footer .btn3{
+    position: absolute;
+    left: 64.3vw;
+    border: none;
+    background-color: #fff;
+}
+.enter_bnt{
+    width: 30vw;
+    height: 12vw;
+    text-align: center;
+    border: 3px solid #fff;
+    -webkit-box-shadow: 0 4px 10px #777;
+    position:relative;
+    border-radius:10px 10px 10px 10px;
+}
+.enter{
+    position: absolute;
+    top: 174vw;
+    left: 33vw;
+}
+.delete{
+    position: absolute;
+    top: 174vw;
+    left: 51vw;
+}
